@@ -1,0 +1,216 @@
+html {
+  font-size: 14px;
+  overflow: auto !important;
+}
+
+body {
+  font-family:  indie flower, cursive;
+}
+
+@media (min-width: 768px) {
+    html {
+      font-size: 16px;
+    }
+}
+
+.blog-header{
+  margin-top: 7rem;
+  max-width: 700px;
+}
+
+@media (max-width: 798px){
+    .blog-header{
+      margin-top: 8rem;
+    }
+}
+
+.container{
+  max-width: 1150px;
+}
+
+.team{
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: nowrap;
+  margin-bottom: 2rem;
+}
+
+
+.card-deck .card{
+  min-width: 220px;
+}
+
+.card-text{
+  padding-top: 1rem;
+}
+
+.card-block{
+  min-height: 220px;
+}
+
+.active{
+  border-bottom: 1px solid black;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 10px; 
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 100%; 
+  color: #fff; 
+  background-color: rgba(0, 0, 0, 0.5); height: 170px;
+}
+
+.carousel-caption h1 {
+  font-size: 2.5rem; 
+}
+
+.carousel-caption p {
+  font-size: 1.25rem; 
+}
+
+.middle{
+  background-color: rgba(0, 0, 0, 0.911);
+}
+
+h1{
+  color: white;
+}
+
+h2{
+  color: white;
+}
+
+p{
+  color: white; 
+}
+
+.text-muted{
+  color: white !important;
+}
+
+.col-md-7{
+  padding:5px;
+  
+}
+
+.container{
+  background-color: #b2aa8e;
+  width: 100%;
+}
+
+.section-divider {
+  border: none;            
+  height: 2px;            
+  background-color: black; 
+}
+ 
+.video-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+video {
+  max-width: 100%;
+  height: 520.88px;
+  border-radius: 10px;
+}
+
+.collage-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;      
+  margin-right: 50px;             
+  top: 50px;                   
+  right: 20px;                 
+  gap: 10px;                  
+}
+
+.collage-photo {
+  width: 250px;              
+  height: 200px;                
+  border-radius: 8px;         
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+}
+
+.content-container {
+  display: flex;          
+  justify-content: space-between; 
+  align-items: flex-start; 
+  font-size:20px;
+  background-color: #b2aa8e;
+}
+.about-mozambique {
+  flex: 1;               
+  margin-right: 30px;     
+  margin-left:50px;
+  font-size: 22px;
+  margin-top: 30px;
+}
+
+h5{
+  font-size:22px;
+}
+
+.thumbnail-list {
+  display: flex;           
+  gap: 10px;                     
+  overflow-x: auto;               
+  padding: 10px;
+  white-space: nowrap;          
+  margin-left: 50px;
+ 
+}
+
+.thumbnail {
+  width: 50px;                  
+  height: auto;                
+  border-radius: 5px;           
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: 2px solid #422316; 
+  border-radius: 5px; 
+  padding: 5px; 
+  width: 100px; 
+  height: auto; 
+  
+}
+
+
+.food-section {
+  display: flex;                 
+  gap: 20px;                       
+  align-items: flex-start;         
+  background-color:rgba(179, 170, 142, 1) ;
+}
+
+.food-paragraph {
+  flex: 1;     
+  margin-left: 50px;      
+  margin-right: 15px;              
+}
+
+.food-img {
+  width: 400px;                 
+  height: auto;                     
+  border-radius: 8px;             
+  object-fit: cover;                
+  margin-top: 120px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  margin-right: 40px;   
+}
+
+.thumbnail-list {
+  display: flex;                    
+  gap: 10px;                        
+  margin-top: 20px;
+}
+
+.thumbnail {
+  width: 50px;                    
+  height: auto;                     
+  border-radius: 4px;              
+}
+
